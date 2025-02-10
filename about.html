@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkan Naufal's Portfolio</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Manrope:wght@200..800&family=Onest:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="font-[Onest]">
+    <!-- Navbar Floating -->
+    <nav
+        class="fixed top-5 left-1/2 transform -translate-x-1/2 z-50 flex items-center justify-center w-full px-8 md:px-0">
+        <div class="bg-[#F5F5F5] rounded-full max-w-3xl w-full px-8 py-3 flex justify-between items-center">
+            <h1 class="text-[#404040] font-extrabold text-xl">Arkan Naufal</h1>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="index.html#home"
+                    class="text-[#909090] hover:text-[#404040] hover:font-[600] transition">Home</a>
+                <a href="index.html#project"
+                    class="text-[#909090] hover:text-[#404040] hover:font-[600] transition">Project</a>
+                <a href="about.html#about"
+                    class="text-[#909090] hover:text-[#404040] hover:font-[600] transition">About</a>
+                <a href="mailto:arkannaufal024@gmail.com">
+                    <button class="bg-[#404040] text-white px-4 py-1.5 rounded-full transition hover:bg-[#909090]">Get
+                        In Touch!</button>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-[#404040] focus:outline-none transition-transform duration-300">
+                <svg id="menu-icon" class="w-6 h-6 transition-opacity duration-300" xmlns="http://www.w3.org/2000/svg"
+                    fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg id="close-icon" class="w-6 h-6 absolute top-0 left-0 opacity-0 transition-opacity duration-300"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="absolute top-full mt-4 left-1/2 transform -translate-x-1/2 bg-[#F5F5F5] rounded-xl p-4 w-[90%] max-w-3xl shadow-lg transition-all duration-300 origin-top scale-y-0 opacity-0">
+            <a href="index.html#home"
+                class="block text-[#909090] hover:text-[#404040] hover:font-[600] transition py-2">Home</a>
+            <a href="index.html#project"
+                class="block text-[#909090] hover:text-[#404040] hover:font-[600] transition py-2">Project</a>
+            <a href="about.html#about"
+                class="block text-[#909090] hover:text-[#404040] hover:font-[600] transition py-2">About</a>
+            <a href="mailto:arkannaufal024@gmail.com">
+                <button
+                    class="w-full bg-[#404040] text-white px-4 py-2 rounded-full transition hover:bg-[#909090] mt-2">Get
+                    In Touch!</button>
+            </a>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="mx-auto w-full max-w-3xl flex items-start px-8 md:px-0 pt-36 md:pt-48 pb-20">
+            <div class="flex flex-col justify-center">
+                <!-- Profile Picture -->
+                <div
+                    class="w-38 h-38 overflow-hidden rounded-full rotate-0 hover:-rotate-45 transition-transform duration-300">
+                    <img src="assets/pp.JPEG" alt="PP" class="w-full h-full object-cover">
+                </div>
+
+                <h1 class="text-[#404040] font-bold text-3xl md:text-5xl mt-8"><span class="text-[#909090]">I'm
+                    </span>Arkan Naufal Ardhani</h1>
+                <p class="text-[#909090] text-lg md:text-xl mt-1 md:mt-2.5">Some people call me <span class="text-[#404040]">Arkan.</span>
+                </p>
+                <p class="text-[#404040] text-base md:text-lg mt-8">WHO IM I ?</p>
+
+                <p class="text-[#909090] mt-3">
+                    I’m a Software Engineering student at SMK IDN Boarding School, Bogor, Indonesia. Since I was young,
+                    I’ve been passionate about technology and how software can shape the world. This passion led me to
+                    pursue a specialization in software development, where I can continuously learn and build innovative
+                    digital solutions.</p>
+                <p class="text-[#909090] mt-3">
+                    Currently, I'm focusing on frontend web development-and I just like crafting clean, responsive,
+                    user-friendly interfaces using modern web technologies. My vision is to help create seamless user
+                    experiences and grow as a person who can build impactful projects with my skills.
+                </p>
+                <p class="text-[#909090] mt-3">
+                    If you’re looking for a frontend web developer for an internship or a freelance project, I’d love to
+                    connect! Feel free to reach out by clicking the Get in Touch button.</p>
+                <p class="text-[#909090] mt-3">Let’s build something amazing😊</p>
+                <img class="mt-10" src="assets/img.png" alt="Image">
+                
+            </div>
+        </div>
+    </section>
+    <!-- About Home -->
+
+    <!-- Connect Section -->
+    <section id="connect">
+        <div class="flex flex-col items-start w-full max-w-3xl mx-auto px-8 md:px-0">
+            <p class="text-[#909090] mb-4">REACH OUT AND GET IN TOUCH</p>
+            <h1 class="text-[#909090] max-w-xl font-bold text-2xl md:text-3xl mb-12">Contact me and
+                let’s create magic with
+                code. <a href="mailto:arkannaufal024@gmail.com"><span
+                        class="text-[#404040] hover:underline">arkannaufal024@gmail.com</span></a></h1>
+            <p class="text-[#909090] mb-4">OR FIND ME COOKING ON</p>
+            <div class="flex flex-row space-x-4 mb-24">
+                <a href="https://www.instagram.com/arkannaufl/">
+                    <svg width="25" height="25" viewBox="0 0 25 25"
+                        class="scale-100 hover:scale-110 transition-transform duration-300" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.0571 3.38525C18.2648 3.38886 19.4219 3.87019 20.2759 4.72413C21.1298 5.57807 21.6111 6.73523 21.6147 7.94287V17.0571C21.6111 18.2648 21.1298 19.4219 20.2759 20.2759C19.4219 21.1298 18.2648 21.6111 17.0571 21.6147H7.94287C6.73523 21.6111 5.57807 21.1298 4.72413 20.2759C3.87019 19.4219 3.38886 18.2648 3.38525 17.0571V7.94287C3.38886 6.73523 3.87019 5.57807 4.72413 4.72413C5.57807 3.87019 6.73523 3.38886 7.94287 3.38525H17.0571ZM17.0571 1.5625H7.94287C4.43359 1.5625 1.5625 4.43359 1.5625 7.94287V17.0571C1.5625 20.5664 4.43359 23.4375 7.94287 23.4375H17.0571C20.5664 23.4375 23.4375 20.5664 23.4375 17.0571V7.94287C23.4375 4.43359 20.5664 1.5625 17.0571 1.5625Z"
+                            fill="#404040" />
+                        <path
+                            d="M18.4243 7.94336C18.1539 7.94336 17.8896 7.86318 17.6648 7.71295C17.4399 7.56272 17.2647 7.34919 17.1612 7.09937C17.0577 6.84955 17.0306 6.57466 17.0834 6.30945C17.1362 6.04424 17.2664 5.80063 17.4576 5.60942C17.6488 5.41822 17.8924 5.28801 18.1576 5.23526C18.4228 5.1825 18.6977 5.20958 18.9475 5.31306C19.1973 5.41654 19.4109 5.59177 19.5611 5.8166C19.7113 6.04144 19.7915 6.30577 19.7915 6.57617C19.7919 6.75582 19.7568 6.93378 19.6882 7.09983C19.6196 7.26588 19.519 7.41675 19.3919 7.54378C19.2649 7.67081 19.114 7.7715 18.948 7.84008C18.7819 7.90865 18.604 7.94375 18.4243 7.94336ZM12.5 8.85449C13.2211 8.85449 13.926 9.06833 14.5256 9.46895C15.1252 9.86958 15.5925 10.439 15.8685 11.1052C16.1444 11.7714 16.2166 12.5045 16.0759 13.2118C15.9353 13.919 15.588 14.5687 15.0781 15.0786C14.5682 15.5885 13.9186 15.9357 13.2113 16.0764C12.504 16.2171 11.771 16.1449 11.1047 15.8689C10.4385 15.593 9.86909 15.1257 9.46847 14.5261C9.06784 13.9265 8.85401 13.2216 8.85401 12.5005C8.85504 11.5338 9.2395 10.6071 9.92304 9.92352C10.6066 9.23999 11.5333 8.85553 12.5 8.85449ZM12.5 7.03174C11.4184 7.03174 10.3611 7.35247 9.46173 7.95339C8.5624 8.5543 7.86145 9.4084 7.44754 10.4077C7.03362 11.407 6.92532 12.5066 7.13633 13.5674C7.34735 14.6282 7.86819 15.6027 8.63301 16.3675C9.39783 17.1323 10.3723 17.6531 11.4331 17.8642C12.4939 18.0752 13.5935 17.9669 14.5928 17.553C15.5921 17.139 16.4462 16.4381 17.0471 15.5388C17.648 14.6394 17.9688 13.5821 17.9688 12.5005C17.9688 11.0501 17.3926 9.65909 16.367 8.6335C15.3414 7.60791 13.9504 7.03174 12.5 7.03174Z"
+                            fill="#404040" />
+                    </svg>
+                </a>
+                <a href="https://github.com/arkannaufl">
+                    <svg width="25" height="25" viewBox="0 0 25 25"
+                        class="scale-100 hover:scale-110 transition-transform duration-300" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.5 1.5625C6.45996 1.5625 1.5625 6.58691 1.5625 12.7783C1.5625 17.7344 4.69727 21.9336 9.04297 23.418C9.10392 23.4312 9.16614 23.4378 9.22852 23.4375C9.63379 23.4375 9.79004 23.1396 9.79004 22.8809C9.79004 22.6123 9.78027 21.9092 9.77539 20.9717C9.41359 21.0565 9.04347 21.1007 8.67188 21.1035C6.56738 21.1035 6.08887 19.4678 6.08887 19.4678C5.59082 18.1738 4.87305 17.8271 4.87305 17.8271C3.9209 17.1582 4.86816 17.1387 4.94141 17.1387H4.94629C6.04492 17.2363 6.62109 18.3008 6.62109 18.3008C7.16797 19.2578 7.90039 19.5264 8.55469 19.5264C8.98732 19.5177 9.41326 19.4179 9.80469 19.2334C9.90234 18.5107 10.1855 18.0176 10.498 17.7344C8.07129 17.4512 5.51758 16.4893 5.51758 12.1924C5.51758 10.9668 5.94238 9.96582 6.64062 9.18457C6.52832 8.90137 6.15234 7.75879 6.74805 6.21582C6.82795 6.1967 6.91008 6.18849 6.99219 6.19141C7.3877 6.19141 8.28125 6.34277 9.75586 7.36816C11.5476 6.86685 13.4426 6.86685 15.2344 7.36816C16.709 6.34277 17.6025 6.19141 17.998 6.19141C18.0802 6.18849 18.1623 6.1967 18.2422 6.21582C18.8379 7.75879 18.4619 8.90137 18.3496 9.18457C19.0479 9.9707 19.4727 10.9717 19.4727 12.1924C19.4727 16.499 16.9141 17.4463 14.4775 17.7246C14.8682 18.0713 15.2197 18.7549 15.2197 19.7998C15.2197 21.2988 15.2051 22.5098 15.2051 22.876C15.2051 23.1396 15.3564 23.4375 15.7617 23.4375C15.8273 23.4378 15.8928 23.4312 15.957 23.418C20.3076 21.9336 23.4375 17.7295 23.4375 12.7783C23.4375 6.58691 18.54 1.5625 12.5 1.5625Z"
+                            fill="#404040" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/arkannaufl/">
+                    <svg width="25" height="25" viewBox="0 0 25 25"
+                        class="scale-100 hover:scale-110 transition-transform duration-300" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.688 1.5625H3.43164C2.43408 1.5625 1.5625 2.28027 1.5625 3.26611V21.563C1.5625 22.5542 2.43408 23.4375 3.43164 23.4375H21.6826C22.6855 23.4375 23.4375 22.5483 23.4375 21.563V3.26611C23.4434 2.28027 22.6855 1.5625 21.688 1.5625ZM8.34326 19.7964H5.20947V10.0527H8.34326V19.7964ZM6.88477 8.57129H6.8623C5.85937 8.57129 5.20996 7.82471 5.20996 6.89014C5.20996 5.93848 5.87647 5.20947 6.90186 5.20947C7.92725 5.20947 8.55469 5.93311 8.57715 6.89014C8.57666 7.82471 7.92725 8.57129 6.88477 8.57129ZM19.7964 19.7964H16.6626V14.4688C16.6626 13.1924 16.2065 12.3203 15.0728 12.3203C14.2065 12.3203 13.6938 12.9063 13.4658 13.4771C13.3804 13.6821 13.3574 13.9614 13.3574 14.2466V19.7964H10.2236V10.0527H13.3574V11.4087C13.8135 10.7593 14.5259 9.82471 16.1836 9.82471C18.2407 9.82471 19.7969 11.1807 19.7969 14.104L19.7964 19.7964Z"
+                            fill="#404040" />
+                    </svg>
+                </a>
+            </div>
+            <div class="bg-[#F5F5F5] rounded-full w-full px-8 py-4 mb-10 flex justify-between">
+                <p class="text-[#909090]">Copyright 2025 - All Rights Reserved</p>
+                <p class="text-[#909090]">Created by Arkan Naufal</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Connect -->
+    <script src="script.js"></script>
+</body>
+
+</html>
