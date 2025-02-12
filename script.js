@@ -30,4 +30,3 @@ for (let scrollLink of scrollLinks) {
         });
     });
 }
-

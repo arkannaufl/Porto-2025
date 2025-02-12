@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Manrope:wght@200..800&family=Onest:wght@100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Manrope:wght@200..800&family=Onest:wght@100..900&family=Playwrite+US+Trad:wght@100..400&display=swap"
         rel="stylesheet">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -25,12 +25,9 @@
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex space-x-6 items-center">
-                <a href="index.html#home"
-                    class="text-[#909090] hover:text-[#404040] hover:font-[600] transition">Home</a>
-                <a href="index.html#project"
-                    class="text-[#909090] hover:text-[#404040] hover:font-[600] transition">Project</a>
-                <a href="about.html#about"
-                    class="text-[#909090] hover:text-[#404040] hover:font-[600] transition">About</a>
+                <a href="index.html#home" class="text-[#909090] hover:text-[#404040] transition">Home</a>
+                <a href="index.html#project" class="text-[#909090] hover:text-[#404040] transition">Project</a>
+                <a href="about.html#about" class="text-[#909090] hover:text-[#404040] transition">About</a>
                 <a href="mailto:arkannaufal024@gmail.com">
                     <button class="bg-[#404040] text-white px-4 py-1.5 rounded-full transition hover:bg-[#909090]">Get
                         In Touch!</button>
@@ -54,13 +51,10 @@
 
         <!-- Mobile Menu -->
         <div id="mobile-menu"
-            class="absolute top-full mt-4 left-1/2 transform -translate-x-1/2 bg-[#F5F5F5] rounded-xl p-4 w-[90%] max-w-3xl shadow-lg transition-all duration-300 origin-top scale-y-0 opacity-0">
-            <a href="index.html#home"
-                class="block text-[#909090] hover:text-[#404040] hover:font-[600] transition py-2">Home</a>
-            <a href="index.html#project"
-                class="block text-[#909090] hover:text-[#404040] hover:font-[600] transition py-2">Project</a>
-            <a href="about.html#about"
-                class="block text-[#909090] hover:text-[#404040] hover:font-[600] transition py-2">About</a>
+            class="absolute top-full mt-4 left-1/2 transform -translate-x-1/2 bg-[#F5F5F5] rounded-xl p-5 w-[83%] max-w-3xl shadow-lg transition-all duration-300 origin-top scale-y-0 opacity-0">
+            <a href="index.html#home" class="block text-[#909090] hover:text-[#404040] transition py-2">Home</a>
+            <a href="index.html#project" class="block text-[#909090] hover:text-[#404040] transition py-2">Project</a>
+            <a href="about.html#about" class="block text-[#909090] hover:text-[#404040] transition py-2">About</a>
             <a href="mailto:arkannaufal024@gmail.com">
                 <button
                     class="w-full bg-[#404040] text-white px-4 py-2 rounded-full transition hover:bg-[#909090] mt-2">Get
@@ -71,20 +65,20 @@
 
     <!-- About Section -->
     <section id="about">
-        <div class="mx-auto w-full max-w-3xl flex items-start px-8 md:px-0 pt-36 md:pt-48 pb-20">
+        <div class="mx-auto w-full max-w-3xl flex items-start px-8 md:px-0 pt-36 md:pt-48">
             <div class="flex flex-col justify-center">
                 <!-- Profile Picture -->
                 <div
-                    class="w-38 h-38 overflow-hidden rounded-full rotate-0 hover:-rotate-45 transition-transform duration-300">
+                    class="w-32 h-32 sm:w-38 sm:h-38 overflow-hidden rounded-full rotate-0 hover:-rotate-45 duration-400">
                     <img src="assets/pp.JPEG" alt="PP" class="w-full h-full object-cover">
                 </div>
 
                 <h1 class="text-[#404040] font-bold text-3xl md:text-5xl mt-8"><span class="text-[#909090]">I'm
                     </span>Arkan Naufal Ardhani</h1>
-                <p class="text-[#909090] text-lg md:text-xl mt-1 md:mt-2.5">Some people call me <span class="text-[#404040]">Arkan.</span>
+                <p class="text-[#909090] text-lg md:text-xl mt-1 md:mt-2.5">Some people call me <span
+                        class="text-[#404040]">Arkan.</span>
                 </p>
-                <p class="text-[#404040] text-base md:text-lg mt-8">WHO IM I ?</p>
-
+                <p class="text-[#909090] text-base md:text-lg mt-8 uppercase">Who Im I ?</p>
                 <p class="text-[#909090] mt-3">
                     I’m a Software Engineering student at SMK IDN Boarding School, Bogor, Indonesia. Since I was young,
                     I’ve been passionate about technology and how software can shape the world. This passion led me to
@@ -99,22 +93,109 @@
                     If you’re looking for a frontend web developer for an internship or a freelance project, I’d love to
                     connect! Feel free to reach out by clicking the Get in Touch button.</p>
                 <p class="text-[#909090] mt-3">Let’s build something amazing😊</p>
-                <img class="mt-10" src="assets/img.png" alt="Image">
+                <div class="grid grid-cols-2 sm:grid-cols-4 justify-items-center gap-4 sm:gap-x-10 my-16 px-12">
+                    <div class="relative w-40 h-52 sm:w-48 sm:h-60 bg-white rounded-md drop-shadow-[0_0_5px_rgba(0,0,0,0.20)] p-1.5 flex flex-col items-center transform rotate-[-7deg] hover:rotate-0 transition duration-300 z-10">
+                        <img src="assets/pp2.png" alt="Photos" class="w-full h-auto rounded-sm">
+                        <p class="absolute bottom-4 sm:bottom-3.5 text-[#909090] text-[10px] sm:text-[12px]" style="font-family: 'Playwrite US Trad';">Arkan Naufal Ardhani</p>
+                    </div>
+                    <div class="relative w-40 h-52 sm:w-48 sm:h-60 bg-white rounded-md drop-shadow-[0_0_5px_rgba(0,0,0,0.20)] p-1.5 flex flex-col items-center transform rotate-[7deg] hover:rotate-0 transition duration-300 z-20">
+                        <img src="assets/pp3.png" alt="Photos" class="w-full h-auto rounded-sm">
+                        <p class="absolute bottom-4 sm:bottom-3.5 text-[#909090] text-[10px] sm:text-[12px]" style="font-family: 'Playwrite US Trad';">Arkan Naufal Ardhani</p>
+                    </div>
+                    <div class="relative w-40 h-52 sm:w-48 sm:h-60 bg-white rounded-md drop-shadow-[0_0_5px_rgba(0,0,0,0.20)] p-1.5 flex flex-col items-center transform rotate-[-7deg] hover:rotate-0 transition duration-300 z-30">
+                        <img src="assets/pp4.png" alt="Photos" class="w-full h-auto rounded-sm">
+                        <p class="absolute bottom-4 sm:bottom-3.5 text-[#909090] text-[10px] sm:text-[12px]" style="font-family: 'Playwrite US Trad';">Arkan Naufal Ardhani</p>
+                    </div>
+                    <div class="relative w-40 h-52 sm:w-48 sm:h-60 bg-white rounded-md drop-shadow-[0_0_5px_rgba(0,0,0,0.20)] p-1.5 flex flex-col items-center transform rotate-[7deg] hover:rotate-0 transition duration-300 z-40">
+                        <img src="assets/pp5.png" alt="Photos" class="w-full h-auto rounded-sm">
+                        <p class="absolute bottom-4 sm:bottom-3.5 text-[#909090] text-[10px] sm:text-[12px]" style="font-family: 'Playwrite US Trad';">Arkan Naufal Ardhani</p>
+                    </div>
+                </div>
                 
+                <p class="text-[#909090] text-base md:text-lg uppercase">Philosophy & Vision</p>
+                <p class="text-[#909090] mt-3">
+                    I believe that great UI/UX design is not just about aesthetics but also about creating seamless user
+                    experiences. My approach to frontend development focuses on crafting clean, responsive, and
+                    accessible interfaces that enhance usability. I aim to build products that are not only visually
+                    appealing but also intuitive and efficient, ensuring that every interaction feels smooth and
+                    engaging.</p>
             </div>
         </div>
     </section>
     <!-- About Home -->
 
+    <section id="tech-stack">
+        <div class="mx-auto w-full max-w-3xl px-8 md:px-0 mt-16">
+            <p class="text-[#909090] text-base uppercase">Tools & Technologies I work with</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
+                <!-- Tailwind CSS -->
+                <div class="flex items-center space-x-6">
+                    <img src="assets/tailwind.png" alt="Tailwind"
+                        class="w-20 h-16 object-cover bg-white p-1 rounded-lg drop-shadow-[0_0_5px_rgba(0,0,0,0.25)] rotate-7 hover:-rotate-7 transform duration-300">
+                    <div>
+                        <p class="font-bold text-[#404040]">Tailwind CSS</p>
+                        <p class="text-[#909090] text-sm">A utility-first CSS framework for rapid UI development</p>
+                    </div>
+                </div>
+                <!-- React -->
+                <div class="flex items-center space-x-6">
+                    <img src="assets/react.png" alt="React"
+                        class="w-20 h-16 object-cover bg-white p-1 rounded-lg drop-shadow-[0_0_5px_rgba(0,0,0,0.25)] -rotate-7 hover:rotate-7 transform duration-300">
+                    <div>
+                        <p class="font-bold text-[#404040]">React</p>
+                        <p class="text-[#909090] text-sm">A JavaScript library for building UIs</p>
+                    </div>
+                </div>
+                <!-- Laravel -->
+                <div class="flex items-center space-x-6">
+                    <img src="assets/laravel.jpg" alt="Laravel"
+                        class="w-20 h-16 object-cover bg-white p-1 rounded-lg drop-shadow-[0_0_5px_rgba(0,0,0,0.25)] -rotate-7 hover:rotate-7 transform duration-300">
+                    <div>
+                        <p class="font-bold text-[#404040]">Laravel</p>
+                        <p class="text-[#909090] text-sm">A web application framework for PHP</p>
+                    </div>
+                </div>
+                <!-- Flutter -->
+                <div class="flex items-center space-x-6">
+                    <img src="assets/flutter.jpg" alt="Flutter"
+                        class="w-20 h-16 object-cover bg-white p-1 rounded-lg drop-shadow-[0_0_5px_rgba(0,0,0,0.25)] rotate-7 hover:-rotate-7 transform duration-300">
+                    <div>
+                        <p class="font-bold text-[#404040]">Flutter</p>
+                        <p class="text-[#909090] text-sm">A cross-platform mobile app framework</p>
+                    </div>
+                </div>
+                <!-- Git -->
+                <div class="flex items-center space-x-6">
+                    <img src="assets/git.png" alt="Git"
+                        class="w-20 h-16 object-cover bg-white p-1 rounded-lg drop-shadow-[0_0_5px_rgba(0,0,0,0.25)] rotate-7 hover:-rotate-7 transform duration-300">
+                    <div>
+                        <p class="font-bold text-[#404040]">Git</p>
+                        <p class="text-[#909090] text-sm">A distributed version control system</p>
+                    </div>
+                </div>
+                <!-- Figma -->
+                <div class="flex items-center space-x-6">
+                    <img src="assets/figma.png" alt="Figma"
+                        class="w-20 h-16 object-cover bg-white p-1 rounded-lg drop-shadow-[0_0_5px_rgba(0,0,0,0.25)] -rotate-7 hover:rotate-7 transform duration-300">
+                    <div>
+                        <p class="font-bold text-[#404040]">Figma</p>
+                        <p class="text-[#909090] text-sm">A collaborative design tool</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Connect Section -->
     <section id="connect">
-        <div class="flex flex-col items-start w-full max-w-3xl mx-auto px-8 md:px-0">
-            <p class="text-[#909090] mb-4">REACH OUT AND GET IN TOUCH</p>
+        <div class="flex flex-col items-start w-full max-w-3xl mx-auto px-8 md:px-0 mt-28">
+            <p class="text-[#909090] mb-4 uppercase">Reach Out And Get In Touch</p>
             <h1 class="text-[#909090] max-w-xl font-bold text-2xl md:text-3xl mb-12">Contact me and
                 let’s create magic with
                 code. <a href="mailto:arkannaufal024@gmail.com"><span
                         class="text-[#404040] hover:underline">arkannaufal024@gmail.com</span></a></h1>
-            <p class="text-[#909090] mb-4">OR FIND ME COOKING ON</p>
+            <p class="text-[#909090] mb-4 uppercase">Or Find Me Cooking On</p>
             <div class="flex flex-row space-x-4 mb-24">
                 <a href="https://www.instagram.com/arkannaufl/">
                     <svg width="25" height="25" viewBox="0 0 25 25"
@@ -147,8 +228,8 @@
                     </svg>
                 </a>
             </div>
-            <div class="bg-[#F5F5F5] rounded-full w-full px-8 py-4 mb-10 flex justify-between">
-                <p class="text-[#909090]">Copyright 2025 - All Rights Reserved</p>
+            <div class="bg-[#F5F5F5] rounded-full w-full px-8 py-4 mb-10 flex justify-center md:justify-between">
+                <p class="text-[#909090] hidden md:flex">Copyright 2025 - All Rights Reserved</p>
                 <p class="text-[#909090]">Created by Arkan Naufal</p>
             </div>
         </div>
